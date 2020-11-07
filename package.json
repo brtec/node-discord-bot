@@ -1,0 +1,16 @@
+{
+  "name": "brtecdiscordbot",
+  "version": "1.0.0",
+  "description": "BotDiscord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BrunoRezende",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "gamedig": "^2.0.23",
+    "mysql2": "^2.2.5"
+  }
+}
