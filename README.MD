@@ -26,6 +26,12 @@ A instalação é fácil, siga os passos abaixo :)
 
 ### Instalação
 
+1. Crie um diretório para o Projeto e entre nele
+```sh
+mkdir nomedodiretorio
+cd nomedodiretorio
+```
+
 1. Clone o Repositório
 ```sh
 git clone https://github.com/brtec/node-discord-bot.git
@@ -39,18 +45,17 @@ npm install
 3. Insira suas configurações em ./src/config.json 
 ```sh
 {
-    "BOT_TOKEN": "TOKEN DISCORD BOT",
+	"BOT_TOKEN": "TOKEN DISCORD BOT",
 	"BD_HOST": "HOST MYSQL",
 	"BD_USER": "USER MYSQL",
 	"BD_SENHA": "SENHA MYSQL",
 	"BD_TABELA": "BANCO MYSQL",
 	"HOST_FIVEM": "IP DO SERVIDOR FIVEM",
-	"PORT_FIVEM": "PORTA DO SERVIDOR FIVEM"
-	
+	"PORT_FIVEM": "PORTA DO SERVIDOR FIVEM"	
 }
 ```
 
-4. Execute o script
+4. Autorize seu BOT no canal do Discord que desejar e execute o script
 ```sh
 node index.js
 ```
