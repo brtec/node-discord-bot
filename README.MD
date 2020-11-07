@@ -36,7 +36,21 @@ git clone https://github.com/brtec/node-discord-bot.git
 npm install
 ```
 
-2. Execute o script
+3. Insira suas configurações em ./src/config.json 
+```sh
+{
+    "BOT_TOKEN": "TOKEN DISCORD BOT",
+	"BD_HOST": "HOST MYSQL",
+	"BD_USER": "USER MYSQL",
+	"BD_SENHA": "SENHA MYSQL",
+	"BD_TABELA": "BANCO MYSQL",
+	"HOST_FIVEM": "IP DO SERVIDOR FIVEM",
+	"PORT_FIVEM": "PORTA DO SERVIDOR FIVEM"
+	
+}
+```
+
+4. Execute o script
 ```sh
 node index.js
 ```
