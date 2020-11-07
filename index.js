@@ -56,7 +56,8 @@ client.on("message", function(message) {
 	if (command === "apresentacao") {
 		//Responde o comando de Apresentação
         message.reply(`Olá ${message.author.username}, tudo bem ? Meu nome é Agente Smith, faço parte da equipe The Matrix, ainda estou em desenvolvimento, se tiver alguma sugestão pra mim, fale com o [DEV] Bruno :).`);                   
-    };
+		
+	};
 	
 	//Comando de Teste com Argumentos
 	if (command === "elequeima") {
@@ -84,8 +85,10 @@ client.on("message", function(message) {
 				if (!err){
 					if(results.changedRows == 0){
 						message.reply(`O Player com ID ${id} já está na Whitelist !`);
+						message.delete({ timeout: 4000 });
 					}else{
 						message.reply(`O Player com ID ${id} foi autorizado na Whitelist !`);
+						message.delete({ timeout: 4000 });
 					}
 					
 					console.log(results);
@@ -116,8 +119,10 @@ client.on("message", function(message) {
 				if (!err){
 					if(results.changedRows == 0){
 						message.reply(`O Player com ID ${id} não está na Whitelist !`);
+						message.delete({ timeout: 4000 });
 					}else{
 						message.reply(`O Player com ID ${id} foi removido da Whitelist !`);
+						message.delete({ timeout: 4000 });
 					}
 					
 					console.log(results);
@@ -135,10 +140,11 @@ client.on("message", function(message) {
 	
 	//Comando Status
 	if (command === "status") {
+		//Biblioteca gamedig para obter dados do servidor fivem
 		Gamedig.query({
 			type: 'fivem',
-			host: '177.38.82.13',
-			port: 30001 
+			host: config.HOST_FIVEM,
+			port: config.PORT_FIVEM 
 		}).then((state) => {
 			console.log(state);
 			message.reply(`**THE MATRIX está ONLINE** \n Conecte-se usando o comando: connect cfx.re/join/rgpxpg !`);
