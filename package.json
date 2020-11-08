@@ -23,5 +23,6 @@
     "discord.js": "^12.4.1",
     "gamedig": "^2.0.23",
     "mysql2": "^2.2.5"
-  }
+  },
+  "devDependencies": {}
 }
