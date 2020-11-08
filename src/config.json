@@ -1,10 +1,19 @@
 {
-    "BOT_TOKEN": "TOKEN DISCORD BOT",
-	"BD_HOST": "HOST MYSQL",
-	"BD_USER": "USER MYSQL",
-	"BD_SENHA": "SENHA MYSQL",
-	"BD_TABELA": "BANCO MYSQL",
-	"HOST_FIVEM": "IP DO SERVIDOR FIVEM",
-	"PORT_FIVEM": "PORTA DO SERVIDOR FIVEM"
+	"_helper1": "Token de seu Bot Criado no Discord Developers.",
+    "BOT_TOKEN": "seutokenDISCORD",
+	"BOT_CANAL_FALA": "id do canal do discord",
+	"DISCORD_ROLE_ADMIN": "id cargo admin",
+	"DISCORD_ROLE_WL": "id cargo aprovador wl",
+	"DISCORD_ROLE_DEV": "id cargo dev",
+	"_helper2": "Configurações de banco de dados MySQL.",
+	"BD_HOST": "seuhostbancodedados",
+	"BD_USER": "userbancodedados",
+	"BD_TABELA": "suatabela",
+	"_helper3": "Configurações do servidor FiveM.",
+	"HOST_FIVEM": "ipfivem",
+	"PORT_FIVEM": "portafivem",
+	"_helper4": "Configurações do Bot Telegram.",
+	"BOT_TOKEN_TELEGRAM": "seutokenTELEGRAM",
+	"TELEGRAM_ID_NOTIFICACAO": "id do chat telegram a receber notificacoes"
 	
 }
