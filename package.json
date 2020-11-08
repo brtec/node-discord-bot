@@ -1,13 +1,24 @@
 {
-  "name": "brtecdiscordbot",
+  "name": "node-discord-bot",
   "version": "1.0.0",
-  "description": "BotDiscord",
+  "description": "Versão de base de um BOT Discord para interação e comandos com servidores FiveM e Banco de dados MYSQL",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "BrunoRezende",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brtec/node-discord-bot.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Bruno Rezende",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brtec/node-discord-bot/issues"
+  },
+  "homepage": "https://github.com/brtec/node-discord-bot#readme",
   "dependencies": {
     "discord.js": "^12.4.1",
     "gamedig": "^2.0.23",
