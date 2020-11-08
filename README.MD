@@ -52,7 +52,7 @@ git clone https://github.com/brtec/node-discord-bot.git
 cd node-discord-bot
 ```
 
-4. Instale os pacotes NPM
+4. Instale as dependências usando NPM
 ```sh
 npm install
 ```
