@@ -47,7 +47,8 @@ cd nomedodiretorio
 git clone https://github.com/brtec/node-discord-bot.git
 ```
 
-3. Entre na pasta clonada```sh
+3. Entre na pasta clonada
+```sh
 cd node-discord-bot
 ```
 
