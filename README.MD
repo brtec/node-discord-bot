@@ -33,6 +33,9 @@ A instalação é fácil, siga os passos abaixo :)
 
 ### Instalação
 
+[![Exemplo Terminal][exemplo-screenshot]]()
+<br>
+
 1. Crie um diretório para o Projeto e entre nele
 ```sh
 mkdir nomedodiretorio
@@ -78,3 +81,4 @@ node index.js
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/bruno-rezende-67720663/
 [product-screenshot]: https://cdn.discordapp.com/attachments/761310924292096000/774772451526574120/unknown.png
+[exemplo-screenshot]: https://cdn.discordapp.com/attachments/761310924292096000/774819872604553277/unknown.png
