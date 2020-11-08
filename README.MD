@@ -1,9 +1,16 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
-
+<br>
 <p align="center">
+  <a href="https://github.com/brtec">
+    <img src="https://cdn.discordapp.com/attachments/761310924292096000/774807309875675177/logonode.png" alt="BRTec Logo" width="100" height="69">
+  </a>
   
-
   <h3 align="center">NodeJS - DiscordBot</h3>
 
   <p align="center">
@@ -60,4 +67,14 @@ npm install
 node index.js
 ```
 
-[product-screenshot]: https://cdn.discordapp.com/attachments/761310924292096000/774772451526574120/unknown.png
+[contributors-shield]: https://img.shields.io/github/contributors/brtec/node-discord-bot.svg?style=flat-square
+[contributors-url]: https://github.com/brtec/node-discord-bot/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/brtec/node-discord-bot.svg?style=flat-square
+[forks-url]: https://github.com/brtec/node-discord-bot/network/members
+[stars-shield]: https://img.shields.io/github/stars/brtec/node-discord-bot.svg?style=flat-square
+[stars-url]: https://github.com/brtec/node-discord-bot/stargazers
+[issues-shield]: https://img.shields.io/github/issues/brtec/node-discord-bot.svg?style=flat-square
+[issues-url]: https://github.com/brtec/node-discord-bot/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/bruno-rezende-67720663/
+[product-screenshot]: https://cdn.discordapp.com/attachments/761310924292096000/774798284941688882/unknown.png
