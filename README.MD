@@ -11,7 +11,7 @@
     <img src="https://cdn.discordapp.com/attachments/761310924292096000/774807309875675177/logonode.png" alt="BRTec Logo" width="100" height="69">
   </a>
   
-  <h3 align="center">NodeJS - DiscordBot</h3>
+  <h3 align="center">NodeJS - DiscordBot (EM DESENVOLVIMENTO)</h3>
 
   <p align="center">
     DiscordBot para integração com servidores FiveM e banco de dados Mysql
@@ -24,7 +24,7 @@
 <!-- GETTING STARTED -->
 ## Instalação
 
-A instalação é fácil, siga os passos abaixo :)
+A instalação é fácil, siga os passos abaixo
 
 ### Requisitos
 ```sh
