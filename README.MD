@@ -42,17 +42,21 @@ mkdir nomedodiretorio
 cd nomedodiretorio
 ```
 
-1. Clone o Repositório
+2. Clone o Repositório
 ```sh
 git clone https://github.com/brtec/node-discord-bot.git
 ```
 
-2. Instale os pacotes NPM
+3. Entre na pasta clonada```sh
+cd node-discord-bot
+```
+
+4. Instale os pacotes NPM
 ```sh
 npm install
 ```
 
-3. Insira suas configurações em ./src/config.json 
+5. Insira suas configurações em ./src/config.json 
 ```sh
 {
 	"_helper1": "Token de seu Bot Criado no Discord Developers.",
@@ -75,7 +79,7 @@ npm install
 }
 ```
 
-4. Autorize seu BOT no canal do Discord que desejar e execute o script
+6. Autorize seu BOT no canal do Discord que desejar e execute o script
 ```sh
 node index.js
 ```
