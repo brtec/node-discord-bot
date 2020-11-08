@@ -56,7 +56,7 @@ npm install
 ```sh
 {
 	"_helper1": "Token de seu Bot Criado no Discord Developers.",
-    "BOT_TOKEN": "seutokenDISCORD",
+	"BOT_TOKEN": "seutokenDISCORD",
 	"BOT_CANAL_FALA": "id do canal do discord",
 	"DISCORD_ROLE_ADMIN": "id cargo admin",
 	"DISCORD_ROLE_WL": "id cargo aprovador wl",
